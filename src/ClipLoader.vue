@@ -29,7 +29,7 @@ export default {
     }
   },
   computed: {
-    spinnerStyle () {
+    spinnerStyle: function() {
       return {
         height: this.size,
         width: this.size,
